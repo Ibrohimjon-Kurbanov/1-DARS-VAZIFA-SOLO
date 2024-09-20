@@ -1,0 +1,29 @@
+@import "./global";
+@import "./font";
+.footer {
+  padding-top: 6.4rem;
+  padding-bottom: 4.8rem;
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  .footer__title {
+    color: rgb(21, 21, 21);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+  }
+  .footer__link {
+    color: rgb(106, 152, 60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+  }
+}
